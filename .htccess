@@ -1,0 +1,6 @@
+    RewriteEngine on
+
+    #First, we will chek if the incomming request includes http/https is not on
+    RewriteCond %{HTTPS} !on
+    #if so, then redirect the request url to https
+    RewriteRule ^ https://www.example.com%{REQUEST_URI} [NE,L,R]
