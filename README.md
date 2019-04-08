@@ -1,4 +1,4 @@
 # redirect_httpTohttps
 
 
-Redirect http to https on apache server.
+A basic rule to redirect your http urls to https on apache server.
